@@ -87,6 +87,7 @@ describe('trips', function() {
 
     it('adds a numerical id to each trip', function() {
       store.trips = []
+      debugger
       let trip = new Trip()
       expect(typeof store.trips[0].id).to.equal("number")
     })
